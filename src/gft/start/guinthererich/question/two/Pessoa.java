@@ -5,8 +5,10 @@ public class Pessoa {
     protected String endereco;
     protected String telefone;
 
-    public Pessoa() {
-        super();
+    public Pessoa(String nome, String endereco, String telefone) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
     }
 
     public void imprimirDados() {
